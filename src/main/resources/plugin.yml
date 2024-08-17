@@ -1,0 +1,14 @@
+name: PlayerScale
+version: 1.0.0
+main: me.rtx4090.playerscale.PlayerScale
+description: Simple /scale command to change player size
+author: RTX4090
+api-version: '1.21'
+load: STARTUP
+
+commands:
+  scale:
+    description: "Set the player's size."
+    usage: "/scale <size>"
+    aliases: [sc]
+    permission-message: "u dog?"
